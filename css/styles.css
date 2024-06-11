@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    width: 4vw;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(90deg, grey, rgb(62, 62, 62));
+    box-shadow: 0px 8px 24px -1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.special{
+    justify-content: space-between;
+}
+
+.row input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: rgb(219, 220, 218);
+}
+
+body {
+    background-image: url("/img/close-up-blue-calculator-notepad-color-background_260672-721.avif");
+    backdrop-filter: blur(5px);
+    
+}
+
+
+
+.items-center {
+    /* border: 2px solid black; */
+    width: 24vw;
+    border-radius: 5%;
+    background: transparent;
+    box-shadow: 0px 8px 24px -1px black;
+    backdrop-filter: blur(5px);
+}
+
+
+header{
+    border: 3px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 50px;
+    margin: 15px auto 30px auto;
+    color: rgb(202, 202, 202);
+    box-shadow: 0px 8px 24px -1px black;
+    position: relative;
+    z-index: -1;
+    
+
+}
+h2{
+    z-index: 999;
+    font-size: 20px;
+    /* position: relative; */
+}
+
+header::before{
+    content: '';
+    width: 50vw;
+    height: 50px;
+    position: absolute;
+    opacity: 0.5;
+    background-color: #000;
+    background-size: cover;
+}

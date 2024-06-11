@@ -1,0 +1,53 @@
+@media screen and (max-width : 1298px){
+    .items-center{
+        width: 34%;
+    }
+}
+@media screen and (max-width : 1000px){
+    .items-center{
+        width: 44%;
+    }
+}
+@media screen and (max-width : 760px){
+    .items-center{
+        width: 70%;
+    }
+}
+@media screen and (max-width : 465px){
+    .items-center{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width : 1050px){
+    .button{
+        width: 6.4vw;
+    }
+}
+
+@media screen and (max-width : 770px){
+    .button{
+        width: 7.4vw;
+    }
+}
+
+@media screen and (max-width : 430px){
+    .button{
+        width: 14vw;
+    }
+}
+
+@media screen and (max-width : 380px){
+    .button{
+        width: 16vw;
+    }
+}
+
+@media screen and (max-width : 330px){
+    .button{
+        width: 17vw;
+    }
+    .items-center{
+        width: 100%;
+    }
+}
